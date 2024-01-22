@@ -18,6 +18,7 @@ To install the required open source libraries for Python:
 * Install the dependencies: `pip3 install -r requirements.txt`
 
 **Creating the CSV file**
+
 Use the [CSV template](https://github.com/jklick-so/so4t_bulk_user_deletion/blob/main/Templates/users.csv) to create a CSV file with the account IDs of the users you want to delete. The CSV file must have a header row with the column name `account_id`. The script will ignore any other columns in the CSV file.
 
 Alternatively, there's [another GitHub project](https://github.com/jklick-so/so4t_inactive_users) that generates a CSV file of inactive users, which includes the account IDs of users and has the appropriate column name (`account_id`). You can generate a report using that script, review/prune the list of users, then use it as the input for this script. Again, this script will ignore any columns in the CSV file other than `account_id`.
