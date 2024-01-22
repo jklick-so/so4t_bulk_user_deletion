@@ -1,5 +1,5 @@
-# Stack Overflow Enterprise Search Logs
-A Python script for Stack Overflow Enterprise that automates the bulk deletion of users. 
+# Stack Overflow for Teams Bulk User Deletion
+A Python script for Stack Overflow Enterprise that automates the bulk deletion of users. This is a web-based approach that uses Selenium to automate the process of deleting users. There's a separate project for [bulk user deletion via the SCIM API](https://github.com/jklick-so/soft_scim_user_deletion). 
 
 > **WARNING: This script will permanently delete users from your Stack Overflow Enterprise instance. There is no undo. Use with caution.**
 
